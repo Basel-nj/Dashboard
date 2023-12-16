@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+   .container {
+      @apply px-[30px] mx-auto;
+   }
+   .element-center {
+      @apply flex justify-center items-center;
+   }
+}
+
+@font-face {
+   font-family: "Montserrat-Regular";
+   src: url("../../public/assets/fonts/Montserrat-Regular.otf")
+      format("opentype");
+   font-weight: 200;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Montserrat";
+   src: url("../../public/assets/fonts/Montserrat-bold.otf") format("opentype");
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Montserrat";
+   src: url("../../public/assets/fonts/Montserrat-Light.otf") format("opentype");
+   font-weight: 100;
+   font-style: normal;
+}
+
+:root {
+   --foreground-rgb: 0, 0, 0;
+   --background-start-rgb: 214, 219, 220;
+   --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+   :root {
+      --foreground-rgb: 255, 255, 255;
+      --background-start-rgb: 0, 0, 0;
+      --background-end-rgb: 0, 0, 0;
+   }
+}
+
+body {
+   /* font-family: "Montserrat-Regular "; */
+}
+
+/* width */
+::-webkit-scrollbar {
+   width: 6px;
+   height: 6px;
+   cursor: pointer;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+   background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+   background: #18073b;
+   border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+   background: #433266;
+}

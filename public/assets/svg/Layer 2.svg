@@ -1,0 +1,26 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="469.443" height="574.44" viewBox="0 0 469.443 574.44">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.226" y1="-0.165" x2="0.964" y2="1.629" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0097de"/>
+      <stop offset="0.11" stop-color="#0684ca"/>
+      <stop offset="0.4" stop-color="#14579b"/>
+      <stop offset="0.65" stop-color="#1e3679"/>
+      <stop offset="0.86" stop-color="#242265"/>
+      <stop offset="1" stop-color="#261b5d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.227" y1="-0.165" x2="0.964" y2="1.628" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0b429a"/>
+      <stop offset="0.28" stop-color="#092974"/>
+      <stop offset="0.59" stop-color="#071351"/>
+      <stop offset="0.84" stop-color="#05053c"/>
+      <stop offset="1" stop-color="#050034"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.227" y1="-0.165" x2="0.965" y2="1.629" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="OBJECTS" transform="translate(0 0)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="17.598" cy="17.598" r="17.598" transform="translate(293.729 463.789) rotate(-45)" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="20.792" cy="20.792" r="20.792" transform="translate(391.419 134.116)" fill="url(#linear-gradient-2)"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="14.374" cy="14.374" r="14.374" transform="translate(0 545.691)" fill="url(#linear-gradient-3)"/>
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="14.374" cy="14.374" r="14.374" transform="translate(440.694)" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>
